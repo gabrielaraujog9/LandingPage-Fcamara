@@ -1,0 +1,121 @@
+@media (max-width: 1140px) {
+  /* ===== base ============ */
+  .wrapper {
+    max-width: 90%;
+  }
+  /* ===== header ============ */
+  .nav {
+    display: none;
+  }
+  .menuIcon {
+    opacity: 1;
+
+    visibility: visible;
+  }
+  /* ===== section1 ============ */
+
+  #section1 .divText {
+    width: 50%;
+
+    padding: 93px 0 93px 40px;
+  }
+}
+@media (max-width: 960px) {
+  /* ===== section1 ============ */
+
+  .divImage {
+    display: none;
+  }
+  #section1 .divText {
+    width: 100%;
+
+    padding: 66px 0 30px 20px;
+  }
+  #section2 .divText {
+    width: 100%;
+
+    padding: 66px 20px 30px 0;
+  }
+  #section4 .divText {
+    width: 100%;
+
+    padding: 66px 20px 30px 0;
+  }
+}
+
+@media (max-width: 470px) {
+  #section1 .divText {
+    padding: 66px 0 30px 0;
+  }
+  #section1 .btn {
+    width: 90%;
+  }
+
+  #section2 .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  /* ==== base ============== */
+  .wrapper {
+    width: 100%;
+  }
+
+  .title-second {
+    font-size: 2.2rem;
+    word-break: break-all;
+  }
+  .btn {
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 16px 15px;
+  }
+  /* ===== section1 ========= */
+  #section1 .divText {
+    padding: 0;
+  }
+  #section1 .btn {
+    width: 100%;
+  }
+  /* ===== section2 ========= */
+  #section2 {
+    max-height: auto;
+    height: 100%;
+  }
+  #section2 .divText {
+    text-align: justify;
+    padding: 35px 0;
+  }
+  #section2 .title-first {
+    word-break: break-all;
+  }
+  #section2 .title-second {
+    font-size: 2rem;
+    word-break: break-all;
+  }
+  #section2 .btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 25px;
+  }
+  /* ===== section3 ========= */
+  #section3 .divText {
+    padding: 0 20px;
+  }
+  #section3 .title-second {
+    word-break: normal;
+  }
+  /* ===== section4 ========= */
+  #section4 .divText {
+    padding: 50px 0;
+    text-align: justify;
+  }
+  #section4 .title-second {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 360px) {
+}
